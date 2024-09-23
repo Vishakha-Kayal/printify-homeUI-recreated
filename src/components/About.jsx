@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import React from "react";
 import { heroQualities } from "../assets/assets";
 import herobg from "../assets/herobg.svg";
+import herobgpng from "../assets/herobgpng.png";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
@@ -32,7 +33,7 @@ const About = () => {
 
   return (
     <div className="mt-36 py-[7rem] pl-[3rem] gap-20 lg:gap-0 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 min-h-[70vh] place-items-center"
-    style={{ backgroundImage: `url(${herobg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    style={{ backgroundImage: `url(${herobgpng})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       {heroQualities.map((data) => {
         return (
           <div className="mb-8 lg-mb-0 h-full items-center lg:items-baseline  flex flex-col justify-center gap-11">
