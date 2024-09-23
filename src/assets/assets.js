@@ -1,6 +1,8 @@
 import higherprofits from "../assets/higherprofits.svg"
 import robustscaling from "../assets/robust-scaling.svg"
 import bestSelection from "../assets/best-selection.svg"
+import aiimage from "../assets/aiimage.png"
+
 export const heroQualities = [
     {
         title:"Higher Profits",
@@ -16,5 +18,10 @@ export const heroQualities = [
         title:"Robust Scaling",
         titleDesc:"Easily handle peak holiday seasons, with our wide network of partners and automatic routing functionality.",
         image:robustscaling,
+    },
+    {
+        title:"Ai Image Generator",
+        titleDesc:"It transforms text prompts into unique designs for products, allowing you to create professional-grade merchandise effortlessly.",
+        image:aiimage,
     },
 ]
