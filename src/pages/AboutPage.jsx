@@ -2,7 +2,9 @@ import React from 'react'
 import About from '../components/About'
 const AboutPage = () => {
   return (
-    <About/>
+   <div className='w-full h-full about'>
+     <About />
+   </div>
   )
 }
 
