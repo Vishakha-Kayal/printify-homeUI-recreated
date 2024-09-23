@@ -2,7 +2,7 @@ import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Button from "../Button";
 import logo from "../../assets/logo.png";
-import logoName from "../../assets/logoName.svg";
+import logoName from "../../assets/Logoname.svg";
 
 const Header = () => {
   return (
