@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --main-color: "#6C5DD4";
+  --bg-color: #dadada;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+  /* background-color: black; */
+}
+
+.main-color {
+  background-color: #6C5DD4;
+}
+
+.tag {
+  margin-bottom: 1.3rem;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* letter-spacing: 2.24px; */
+  text-transform: uppercase;
+}
+
+@media (min-width:100px) and (max-width: 640px) {
+
+  html,
+  body {
+    font-size: 52%;
+  }
+}
+
+/* @media (max-width: 768px){
+  html,body{
+    font-size: 50%;
+  }
+
+}
+
+@media (max-width: 1024px){
+  html,body{
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 1280px){
+  html,body{
+    font-size: 50%;
+  }
+} */
