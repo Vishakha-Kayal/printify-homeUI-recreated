@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const HeroTagline = () => {
   return (
-    <section className="flex items-center justify-between px-10 py-20 font-sora h-full w-full">
+    <section className="flex items-center justify-between px-10 py-20 font-sora h-[50%] lg:h-full w-full">
       <div className="w-full">
-        <h1 className="text-8xl leading-[7.5rem] font-semibold bg-gradient-to-b from-[#6C5DD4] to-[#000000] bg-clip-text text-transparent">
+        <h1 className="text-7xl leading-[6.3rem] lg:text-8xl lg:leading-[7.5rem] font-semibold bg-gradient-to-b from-[#6C5DD4] to-[#000000] bg-clip-text text-transparent">
           Create and Sell Custom Products
         </h1>
 
@@ -14,7 +14,7 @@ const HeroTagline = () => {
           <li className="mt-3">✅ 900+ High-Quality Products</li>
           <li className="mt-3">✅ Largest global print network</li>
         </ul>
-        <div className="w-[23%] mt-9">
+        <div className="w-[36%] lg:w-[23%] mt-9 mb-5">
           <Button
             bg="bg-[#6C5DD4]"
             paddingY="py-[1.25rem]"

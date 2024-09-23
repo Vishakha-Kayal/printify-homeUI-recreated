@@ -184,7 +184,7 @@ const HeroAnimation = () => {
   }, [products.length]);
 
   return (
-    <div className="relative flex justify-center items-center w-full h-full">
+    <div className="relative flex justify-center items-center w-full  h-[50%] lg:h-full">
       {products.map((product, index) => {
         const { image, design, alt, designAlt, left, top, width } = product;
         return (
